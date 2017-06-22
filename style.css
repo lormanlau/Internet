@@ -11,6 +11,8 @@ body{
 	background-color: #4d80a8;
 	padding: 2%;
 	margin: 0px;
+	font-size: 30px;
+	color: white;
 }
 #header	img{
 	width: 97px;
@@ -34,6 +36,9 @@ body{
 	padding: 0.5%;
 	display: flex;
 	flex-direction: column;
+}
+#sidebar h3 , #sidebar h4{
+	margin: 4%;
 }
 #sidebar form {
 	display: flex;
@@ -81,6 +86,55 @@ body{
 	color: white;
 	font-size: 16px;
 }
-#content_header {
+#content_header{
+	display:inline-block;
+	vertical-align: top;
+}
+#homePic {
+	height: 25px;
+	widths: 25px;
+}
+#phonePic {
+	height: 70px;
+	width: 70px;
+	margin-right: 10px 
+}
+#main_content{
 	display: flex;
-} 
+	flex-direction: column;
+}
+#content_header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+#left, #right {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+#left h2{
+	margin: 0px 10px;
+	color: #487ca9;
+}
+#right p, #right h2 {
+	margin: 0px;
+	text-align: center;
+}
+#right h2 {
+	color: #0cc2dd;
+	font-size: 40px;
+}
+#mid_content{
+	border-top: 1px solid grey; 
+}
+#mid_content h2 {
+	color: #487ca9;
+}
+.lightblue {
+	color: #5cbbc9;
+}
+#mid_content img{
+	margin: 0px auto;
+	width: 200px;
+}
