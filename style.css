@@ -1,0 +1,38 @@
+body{
+	width: 970px;
+	margin: 0px;
+}
+#header h1 {
+	padding-left: 125px;
+	font-size: 50px;
+	margin: 20px 0px 0px 0px;
+}
+#header h2{
+	background-color: #4d80a8;
+	padding: 2%;
+	margin: 0px;
+}
+#header	img{
+	width: 97px;
+	height: 97px;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+.blue {
+	color: #2e6c9f;
+}
+.red {
+	color: red;
+}
+#main_container {
+	display: flex;
+	background: linear-gradient( 0deg, white, #e3e3e3 );
+}
+#sidebar {
+	flex: 1;
+	padding: 0.5%;
+}
+#main_content {
+	flex: 3;
+}
