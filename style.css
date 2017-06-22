@@ -95,13 +95,14 @@ body{
 	widths: 25px;
 }
 #phonePic {
-	height: 70px;
-	width: 70px;
+	height: 50px;
+	width: 50px;
 	margin-right: 10px 
 }
 #main_content{
 	display: flex;
 	flex-direction: column;
+	margin-left: 3%;
 }
 #content_header{
 	display: flex;
@@ -113,6 +114,12 @@ body{
 	display: flex;
 	flex-direction: row;
 }
+#right {
+	align-items: center; 
+}
+#left {
+	margin-right: 125px;
+}
 #left h2{
 	margin: 0px 10px;
 	color: #487ca9;
@@ -123,7 +130,7 @@ body{
 }
 #right h2 {
 	color: #0cc2dd;
-	font-size: 40px;
+	font-size: 30px;
 }
 #mid_content{
 	border-top: 1px solid grey; 
@@ -135,6 +142,26 @@ body{
 	color: #5cbbc9;
 }
 #mid_content img{
+	display: block;
+	width: 40%;
 	margin: 0px auto;
-	width: 200px;
+}
+#bot_content {
+	display: flex;
+	border-top: 5px solid #0087dd;
+	border-left: 5px solid #0087dd;
+	border-right: 5px solid #0087dd;
+	padding: 2%;
+}
+#bot_content img {
+	width: 20%;
+	height: 20%;
+	display: block;
+}
+#bot_text h2{
+	color:#487ca9;
+	margin-top: 0px;
+}
+#bot_text a{
+	text-decoration: none;
 }
