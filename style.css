@@ -8,7 +8,7 @@ body{
 	margin: 20px 0px 0px 0px;
 }
 #header h2{
-	background-color: #4d80a8;
+	background: linear-gradient(#29679c, #5182a9, #29679c);
 	padding: 2%;
 	margin: 0px;
 	font-size: 30px;
