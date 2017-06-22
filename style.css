@@ -36,3 +36,6 @@ body{
 #main_content {
 	flex: 3;
 }
+#watchvid {
+	background: linear-gradient( 180deg, #6498c0, #2d6ba0 );
+}
