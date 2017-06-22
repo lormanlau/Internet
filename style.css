@@ -32,10 +32,44 @@ body{
 #sidebar {
 	flex: 1;
 	padding: 0.5%;
+	display: flex;
+	flex-direction: column;
 }
+#sidebar form {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10%; 
+}
+#sidebar form button {
+	flex: 1;
+	text-align: center;
+	width: 90%;
+	margin: 0.5% auto;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
 #main_content {
 	flex: 3;
 }
 #watchvid {
 	background: linear-gradient( 180deg, #6498c0, #2d6ba0 );
+}
+#moreResources {
+	background: linear-gradient( 180deg, #efc289, #ed7403 );
+}
+#sidePic {
+	background-image: url(images/ad_background.png);
+	color:white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+#sidePic img {
+	height: 50%;
+	width: 50%;
+	margin: 0px auto;
 }
